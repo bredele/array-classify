@@ -41,7 +41,7 @@ function group (list, cb) {
     else remaining.push(b)
   })
   return {
-    alike: alike.length > 0 ? [a, ...alike]: a,
-    remaining: remaining
+    alike: alike.length > 0 ? [a, ...alike] : a,
+    remaining
   }
 }
