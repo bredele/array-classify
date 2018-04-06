@@ -1,0 +1,32 @@
+{
+  "name": "array-classify",
+  "version": "1.0.0",
+  "description": "Arrange array into groups of objects",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bredele/array-classify.git"
+  },
+  "keywords": [
+    "classify",
+    "arrange",
+    "group",
+    "array",
+    "object"
+  ],
+  "author": "Olivier Wietrich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredele/array-classify/issues"
+  },
+  "homepage": "https://github.com/bredele/array-classify#readme",
+  "devDependencies": {
+    "tape": "^4.9.0"
+  }
+}
