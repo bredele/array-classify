@@ -10,13 +10,15 @@ test('group objects in an array given a sorting callback', assert => {
   const arr = [
     {name: 'foo', value: 'hello'},
     {name: 'beep', value: 'boop'},
-    {name: 'foo', value: 'world'}
+    {name: 'foo', value: 'world'},
+    {name: 'bar', value: 'beep'},
   ]
   assert.deepEqual(classify(arr, (a, b) => a.name === b.name), [
     [
       {name: 'foo', value: 'hello'},
       {name: 'foo', value: 'world'}
     ],
-    {name: 'beep', value: 'boop'}
+    {name: 'beep', value: 'boop'},
+    {name: 'bar', value: 'beep'}
   ])
 })
